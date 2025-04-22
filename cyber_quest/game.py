@@ -46,7 +46,7 @@ class CyberQuest(tk.Tk):
         # Defines the audio to be played
         pygame.mixer.init()
         pygame.mixer.music.load(
-            "cyber_quest/audio/Background Music [chill lofi hip hop beats].mp3"
+            "cyber_quest/audio/Afternoon Jazz [jazz lofi].mp3"
         )
         pygame.mixer.music.play(-1)
 
