@@ -58,7 +58,7 @@ def login_user():
             file.write(username)
 
         root.destroy()  # Close the current window
-        subprocess.Popen(["python3", "cyber_quest/test.py"])  # Launch the external script
+        subprocess.Popen(["python3", "cyber_quest/game.py"])  # Launch the external script
     else:
         # Show error message if the credentials are invalid
         messagebox.showerror("Error", "Invalid username or password.")
